@@ -27,17 +27,17 @@ session_start();
 
 <header id="header">
     <div class="div-title-logo">
-        <a href="../main/index.php"><i class=></i>btn</a>
+        <a href="/reno/index.php"><i class=></i>btn</a>
         <h1 class="">Les chauds de la Reno</h1>
     </div>
 
     <!-- Nav pour les différentes pages/ancres -->
     <nav class="">
-        <li class=""><a id="" class="" href="../main/index.php">Accueil</a></li>
-        <li class=""><a id="" class="" href="../blog/blog.php">Blog</a></li>
-        <li class=""><a id="" class="" href="../products/products.php">Consulter notre catalogue</a></li>
-        <li class=""><a id="" class="" href="../contact/devis.php">Faire un devis</a></li>
-        <li class=""><a id="" class="" href="../contact/contact.php">Nous contacter</a></li>
+        <li class=""><a id="" class="" href="/reno/index.php">Accueil</a></li>
+        <li class=""><a id="" class="" href="/reno/sources/blog/blog.php">Blog</a></li>
+        <li class=""><a id="" class="" href="/reno/sources/products/products.php">Consulter notre catalogue</a></li>
+        <li class=""><a id="" class="" href="/reno/sources/contact/devis.php">Faire un devis</a></li>
+        <li class=""><a id="" class="" href="/reno/sources/contact/contact.php">Nous contacter</a></li>
     </nav>
 </header>
 
