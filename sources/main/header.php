@@ -35,6 +35,7 @@ session_start();
     <nav class="">
         <li class=""><a id="" class="" href="../main/index.php">Accueil</a></li>
         <li class=""><a id="" class="" href="../blog/blog.php">Blog</a></li>
+        <li class=""><a id="" class="" href="../products/products.php">Consulter notre catalogue</a></li>
         <li class=""><a id="" class="" href="../contact/devis.php">Faire un devis</a></li>
         <li class=""><a id="" class="" href="../contact/contact.php">Nous contacter</a></li>
     </nav>
