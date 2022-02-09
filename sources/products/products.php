@@ -19,8 +19,12 @@ $products = $requete->fetchAll();
 
 ?>
 
-<div class="container-prest"><h1 style="text-decoration: underline">Nos prestations</h1></div>
 
+<section class="title-subcat">
+    <div class="contain">
+        <div class="container-prest"><h1>Nos prestations</h1></div>
+    </div>
+</section>
 
 <section id="card-session-event" class="event-section">
     <div class="container-prest">

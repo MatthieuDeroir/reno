@@ -17,7 +17,11 @@ $article = $requete->fetchAll();
 
 ?>
 
-<div class="container-prest"><h1 style="text-decoration: underline">Nos articles</h1></div>
+<section class="title-subcat">
+    <div class="contain">
+        <div class="container-prest"><h1>Nos articles</h1></div>
+    </div>
+</section>
 
 
 <section id="card-session-event" class="event-section">

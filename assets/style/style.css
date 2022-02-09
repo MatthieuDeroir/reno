@@ -453,7 +453,6 @@ header {
     margin: 0;
     padding: 0;
     justify-content: center;
-    justify-content: space-evenly;
 
 }
 
@@ -687,6 +686,27 @@ header {
     height: 100%;
 }
 
+.title-main {
+    text-align: center;
+    font-style: revert;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 3px solid black;
+    color: #101010;
+    border-radius: 25px;
+}
+
+.title-subcat {
+    /*margin-top: 4rem;*/
+    background-color: #FF690077;
+    border: 10px solid black;
+    border-left:none;
+    border-right:none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
 .img-section-1 {
 
     background-image: url("../img/sections/section-img-1.jpg");
@@ -719,10 +739,17 @@ header {
 .section-container {
     padding: 2rem;
     border-radius: 5rem;
+    text-align: center;
+    transition: 0.5s;
+
 }
 
 .section-container:hover {
-    background-color: #AD5700FF;
+    transition: 0.5s;
+    background-color: #AD570055;
+    backdrop-filter: blur(10px);
+    color: #ffffff;
+
 }
 .section-title {
     padding: 2rem;
@@ -736,13 +763,14 @@ header {
     padding: 2rem;
     font-size: 21px;
     border-radius: 1.5rem;
-    background-color: #10101488;
-    color:white;
+    color: #020202;
     align-items: center;
     text-align: center;
-    backdrop-filter: blur(10px);
-
+    overflow: hidden;
+    /*backdrop-filter: blur(10px);*/
 }
+
+
 
 .sections-span-text-background-primary {
     display: block;
@@ -752,7 +780,6 @@ header {
     color:white;
     align-items: center;
     text-align: center;
-
 }
 
 
@@ -866,6 +893,7 @@ header {
     font-weight: bold;
     padding: 0.7rem 0 1.5rem 0;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 #avis .contain .avis-wrap > div > .commentaire{
     margin: 0;

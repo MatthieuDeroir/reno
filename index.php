@@ -11,20 +11,26 @@ include "../reno/sources/main/header.php";
 
 <section id="title-hero" class="img-section-1 white">
     <div class="contain">
-        <h1>Les chauds de la Réno !</h1>
-        <div>
-            <span class="sections-span-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque doloribus error fugit in iusto, numquam repudiandae soluta suscipit tempore. Aperiam, commodi consequatur dolore est eum expedita explicabo facere illo laboriosam laudantium officia officiis pariatur perferendis perspiciatis quis, sed sint totam ullam voluptas voluptate? Ab consequatur consequuntur doloremque facilis, in ipsum iure mollitia nisi non porro quibusdam, quisquam reiciendis rerum sequi ut, vero voluptates! Aperiam asperiores at atque blanditiis commodi doloribus enim, eos esse, excepturi fuga fugiat fugit id illo in labore magni minus neque nisi nulla optio, pariatur placeat repellendus sapiente sunt suscipit tempora tempore ut velit vitae voluptate.</span>
-        </div>
+        <h1 class="title-main"><span style="color:#FF6900">L</span>es <span style="color:#FF6900">C</span>hauds <span style="color:#FF6900">D</span>e la <span style="color:#FF6900">R</span>éno</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <br>
         <div class="sections-btn">
-            <a href="" class="btn btn-primary">Call to action</a>
+
+            <a href="sources/products/products.php" class="btn btn-primary" style=" font-size: 40px">Découvrir</a>
         </div>
     </div>
 </section>
 
 <section id="title-hero" class="">
     <div class="contain section-container">
-        <span class="section-title"\><b>Première estimation gratuite instantanée !</b> </span>
+        <span class="section-title">Estimation <b>gratuite</b> & <b>instantanée !</b> </span>
         <div>
             <br>
             <br>
@@ -33,20 +39,22 @@ include "../reno/sources/main/header.php";
         </div>
         <br>
         <div class="sections-btn">
-            <a href="" class="btn btn-primary">Call to action</a>
+            <a href="sources/contact/devis.php" class="btn btn-primary" style="font-size: 40px">Demander un devis</a>
         </div>
     </div>
 </section>
 
 <section id="title-hero" class="img-section-3">
-    <div class="contain">
-        <h1>Les chauds de la Réno !</h1>
+    <div class="contain section-container">
+        <span class="section-title">  Vous n'êtes pas sûr ? <b>Contactez-nous !</b></span>
         <div>
+            <br>
+            <br>
             <span class="sections-span-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque doloribus error fugit in iusto, numquam repudiandae soluta suscipit tempore. Aperiam, commodi consequatur dolore est eum expedita explicabo facere illo laboriosam laudantium officia officiis pariatur perferendis perspiciatis quis, sed sint totam ullam voluptas voluptate? Ab consequatur consequuntur doloremque facilis, in ipsum iure mollitia nisi non porro quibusdam, quisquam reiciendis rerum sequi ut, vero voluptates! Aperiam asperiores at atque blanditiis commodi doloribus enim, eos esse, excepturi fuga fugiat fugit id illo in labore magni minus neque nisi nulla optio, pariatur placeat repellendus sapiente sunt suscipit tempora tempore ut velit vitae voluptate.</span>
         </div>
         <br>
         <div class="sections-btn">
-            <a href="" class="btn btn-primary">Call to action</a>
+            <a href="sources/contact/contact.php" class="btn btn-primary">Call to action</a>
         </div>
     </div>
 </section>
@@ -65,6 +73,7 @@ include "../reno/sources/main/header.php";
                     <img src="assets/img/ico/e_star.png">
                 </div>
                 <div class="nom">Christophe M.</div>
+                <br>
                 <p class="commentaire">Très bon suivi de chantier, j'ai choisi la société les Chauds de la
                     Réno, super contact, travail soigné et devis respecté. Votre site est excellent! Les prix
                     correspondent à ce que l'on m'avait indiqué.
@@ -79,6 +88,7 @@ include "../reno/sources/main/header.php";
                     <img src="assets/img/ico/f_star.png">
                 </div>
                 <div class="nom">mICHEL fOURNIRET</div>
+                <br>
                 <p class="commentaire">bEAU BOULOT;j3AI BEAUCOUP AIM2 L32QUIPE.
                 </p>
             </div>
@@ -92,6 +102,7 @@ include "../reno/sources/main/header.php";
                     <img src="assets/img/ico/e_star.png">
                 </div>
                 <div class="nom">Bromas Sylvie</div>
+                <br>
                 <p class="commentaire">Equipe très sympathique, efficace, délai respecté. Devis correct. Un travail
                     correct mais doit s'affiner en finition. Sinon rien à dire.
                 </p>
@@ -102,15 +113,16 @@ include "../reno/sources/main/header.php";
 </section>
 
 <section id="title-hero" class="img-section-2">
-    <div class="contain">
-
-        <h1>Les chauds de la Réno !</h1>
+    <div class="contain section-container">
+        <span class="section-title">  Vous êtes fondu de <b>Rénovation ?</b></span>
         <div>
-            <span class="sections-span-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque doloribus error fugit in iusto, numquam repudiandae soluta suscipit tempore. Aperiam, commodi consequatur dolore est eum expedita explicabo facere illo laboriosam laudantium officia officiis pariatur perferendis perspiciatis quis, sed sint totam ullam voluptas voluptate? Ab consequatur consequuntur doloremque facilis, in ipsum iure mollitia nisi non porro quibusdam, quisquam reiciendis rerum sequi ut, vero voluptates! Aperiam asperiores at atque blanditiis commodi doloribus enim, eos esse, excepturi fuga fugiat fugit id illo in labore magni minus neque nisi nulla optio, pariatur placeat repellendus sapiente sunt suscipit tempora tempore ut velit vitae voluptate.</span>
+            <br>
+            <br>
+            <span class="sections-span-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque doloribus error fugit in iusto, numquam repudiandae soluta suscipit tempore. Aperiam, commodi consequatur dolore est eum expedita explicabo facere illo laboriosam laudantium officia officiis pariatur perferendis perspiciatis quis, sed sint totam ullam voluptas voluptate? Ab consequatur consequuntur doloremque facilis, in ipsum iure mollitia nisi non porro quibusdam, quisquam reiciendis rerum sequi ut, vero voluptates! Aperiam asperiores at atque blanditiis commodi doloribus enim, eos esse, excepturi fuga fugiat fugit id illo in labore magni minus neque nisi nulla optio, pariatur placeat repellendus sapiente sunt suscipit tempora tempore ut velit vitae voluptate.</span>
         </div>
         <br>
         <div class="sections-btn">
-            <a href="" class="btn btn-primary">Call to action</a>
+            <a href="sources/blog/blog.php" class="btn btn-primary">Call to action</a>
         </div>
     </div>
 </section>

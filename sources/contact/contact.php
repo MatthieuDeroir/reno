@@ -64,8 +64,8 @@ include "../main/header.php";
             <!-- Un vrai professionel du javascript -->
 
             <div class="div-chek-label">
-                <input type="checkbox" name="rgpd" id="rgpd">
-                <label for="rgpd">Je souhaite recevoir les informations par mail de la part des <b>Chauds de la Réno !</b></label>
+                <input type="checkbox" name="newsletter" id="newsletter">
+                <label for="newsletter">Je souhaite recevoir les informations par mail de la part des <b>Chauds de la Réno !</b></label>
             </div>
 
 
