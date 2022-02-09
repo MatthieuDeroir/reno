@@ -11,7 +11,7 @@ include "../reno/sources/main/header.php";
 
 <section id="title-hero" class="img-section-1 white">
     <div class="contain">
-        <h1 class="title-main"><span style="color:#FF6900">L</span>es <span style="color:#FF6900">C</span>hauds <span style="color:#FF6900">D</span>e la <span style="color:#FF6900">R</span>éno</h1>
+        <h1 class="title-main" style="font-style: italic"><span style="color:#FF6900">L</span>es <span style="color:#FF6900">C</span>hauds <span style="color:#FF6900">D</span>e la <span style="color:#FF6900">R</span>éno</h1>
         <br>
         <br>
         <br>
@@ -34,6 +34,7 @@ include "../reno/sources/main/header.php";
         <div>
             <br>
             <br>
+            <iframe src="https://www.youtube.com/embed/eYblN2Jg8iQ?autoplay=1" frameborder="0" style="width:500px; height:300px;"allowfullscreen></iframe>
             <span class="sections-span-text-background-primary">Faites vos premières <b>estimations</b>  de vos projets dès maintenant et sans attente ! Seulement quelques renseignements sont demandés, préparez vos mètres ! Vous recevrez une estimation pour avoir un <b>ordre de grandeur</b>  en terme de <b>tarif</b> !
                 L’estimation sera ensuite étudiée par un <b>professionnel sous 48h </b>(jours ouvrés) pour que vous ayez un <b>devis précis</b> dans les plus <b>brefs délais</b>. Vous aurez par la suite la possibilité d'être rappelé afin d'obtenir un <b>suivi individuel et 100% personalisé</b> en fonction de vos besoins !</span>
         </div>
@@ -54,7 +55,7 @@ include "../reno/sources/main/header.php";
         </div>
         <br>
         <div class="sections-btn">
-            <a href="sources/contact/contact.php" class="btn btn-primary">Call to action</a>
+            <a href="sources/contact/contact.php" class="btn btn-call-to-action" style="font-size: 40px">Nous contacter</a>
         </div>
     </div>
 </section>
@@ -64,7 +65,7 @@ include "../reno/sources/main/header.php";
         <h1>Des avis de nos clients :</h1>
         <div class="avis-wrap">
 
-            <div class="avis-1">
+            <div class="avis-card">
                 <div class="etoiles">
                     <img src="assets/img/ico/f_star.png">
                     <img src="assets/img/ico/f_star.png">
@@ -79,7 +80,7 @@ include "../reno/sources/main/header.php";
                     correspondent à ce que l'on m'avait indiqué.
                     Merci !</p>
             </div>
-            <div class="avis-2">
+            <div class="avis-card">
                 <div class="etoiles">
                     <img src="assets/img/ico/f_star.png">
                     <img src="assets/img/ico/f_star.png">
@@ -93,7 +94,7 @@ include "../reno/sources/main/header.php";
                 </p>
             </div>
 
-            <div class="avis-3">
+            <div class="avis-card">
                 <div class="etoiles">
                     <img src="assets/img/ico/f_star.png">
                     <img src="assets/img/ico/f_star.png">
@@ -122,7 +123,7 @@ include "../reno/sources/main/header.php";
         </div>
         <br>
         <div class="sections-btn">
-            <a href="sources/blog/blog.php" class="btn btn-primary">Call to action</a>
+            <a href="sources/blog/blog.php" class="btn btn-call-to-action" style="font-size: 40px">Parcourir nos articles </a>
         </div>
     </div>
 </section>

@@ -14,7 +14,7 @@
                         @LCDR</a></div>
                 <div class="network-logo">
                     <a class="btn  btn-primary" target="_blank" rel="noopener" href="https://www.instagram.com/?hl=fr">Instagram :
-                        @LCDR</a></div>
+                        @Leschaudsdela_reno</a></div>
             </div>
 
         </div>

@@ -31,10 +31,8 @@ session_start();
     <div class="logo-header">
         <a href="/reno/index.php"><img class='div-title-logo'
                                        src="/reno/assets/img/source/logo-reno-tiny.png"></img></a>
-                    <h1 class="site-title">L C D R</h1>
-                    <h1 id="site-subtitle">"Les chauds de la Réno !"</h1>
-
-
+                    <h1 class="site-title" style="font-style: italic">L C D R</h1>
+        <h1 id="site-subtitle">"Les chauds de la Réno !"</h1>
 
     </div>
 
