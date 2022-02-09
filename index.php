@@ -2,12 +2,14 @@
 
 // création d'un titre de page
 $title = "Les chauds des la Reno !";
+$bgimg = 'background-image';
+
 
 include "../reno/sources/main/header.php";
 
 ?>
 
-<section id="title-hero" class="img-section-1">
+<section id="title-hero" class="img-section-1 white">
     <div class="contain">
         <h1>Les chauds de la Réno !</h1>
         <div>
@@ -18,6 +20,7 @@ include "../reno/sources/main/header.php";
         </div>
     </div>
 </section>
+
 <section id="title-hero" class="">
     <div class="contain">
         <h1>Les chauds de la Réno !</h1>
@@ -29,6 +32,7 @@ include "../reno/sources/main/header.php";
         </div>
     </div>
 </section>
+
 <section id="title-hero" class="img-section-3">
     <div class="contain">
         <h1>Les chauds de la Réno !</h1>
@@ -41,6 +45,7 @@ include "../reno/sources/main/header.php";
         </div>
     </div>
 </section>
+
 <section id="title-hero" class="">
     <div class="contain">
         <h1>Les chauds de la Réno !</h1>
@@ -53,6 +58,7 @@ include "../reno/sources/main/header.php";
         </div>
     </div>
 </section>
+
 <section id="title-hero" class="img-section-2">
     <div class="contain">
 

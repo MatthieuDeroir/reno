@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><?php echo $title ?></title>
 
-    <link rel="stylesheet" href="/reno/assets/style/v-style.css">
+
     <link rel="stylesheet" href="/reno/assets/style/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -55,5 +55,6 @@ session_start();
     </nav>
 </header>
 
-<div class="background-image" id="">
+
+<div class="<?php echo $bgimg ?>" id="">
 

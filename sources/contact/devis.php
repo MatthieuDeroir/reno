@@ -1,18 +1,19 @@
 <?php
 // création d'un titre de page
 $title = "Faire un devis";
+$bgimg = 'background-image-devis';
 
 include "../main/header.php";
 ?>
 
-<section>
+<section id="contact-form">
     <div class="form-img">
         <h2 class="form-title-usr">contact-form-title</h2>
         <p class="form-desc-usr">contact-form-desc</p>
-        <form class=""action="../../actions/insertDevis.php" method="post">
+        <form class="" action="../../actions/insertDevis.php" method="post">
             <div class="div-input-label">
                 <label for="sex">Civilité : </label>
-                <select type="text " name="sex" id="sex" required>
+                <select type="text" name="sex" id="sex" required>
                     <option value="M">Homme</option>
                     <option value="F">Femme</option>
                     <option value="O">Autre</option>
