@@ -17,16 +17,19 @@ include "../reno/sources/main/header.php";
         </div>
         <br>
         <div class="sections-btn">
-            <a href="" class="btn btn-primary">to action</a>
+            <a href="" class="btn btn-primary">Call to action</a>
         </div>
     </div>
 </section>
 
 <section id="title-hero" class="">
-    <div class="contain">
-        <h1>Les chauds de la Réno !</h1>
+    <div class="contain section-container">
+        <span class="section-title"\><b>Première estimation gratuite instantanée !</b> </span>
         <div>
-            <span class="sections-span-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque doloribus error fugit in iusto, numquam repudiandae soluta suscipit tempore. Aperiam, commodi consequatur dolore est eum expedita explicabo facere illo laboriosam laudantium officia officiis pariatur perferendis perspiciatis quis, sed sint totam ullam voluptas voluptate? Ab consequatur consequuntur doloremque facilis, in ipsum iure mollitia nisi non porro quibusdam, quisquam reiciendis rerum sequi ut, vero voluptates! Aperiam asperiores at atque blanditiis commodi doloribus enim, eos esse, excepturi fuga fugiat fugit id illo in labore magni minus neque nisi nulla optio, pariatur placeat repellendus sapiente sunt suscipit tempora tempore ut velit vitae voluptate.</span>
+            <br>
+            <br>
+            <span class="sections-span-text-background-primary">Faites vos premières <b>estimations</b>  de vos projets dès maintenant et sans attente ! Seulement quelques renseignements sont demandés, préparez vos mètres ! Vous recevrez une estimation pour avoir un <b>ordre de grandeur</b>  en terme de <b>tarif</b> !
+                L’estimation sera ensuite étudiée par un <b>professionnel sous 48h </b>(jours ouvrés) pour que vous ayez un <b>devis précis</b> dans les plus <b>brefs délais</b>. Vous aurez par la suite la possibilité d'être rappelé afin d'obtenir un <b>suivi individuel et 100% personalisé</b> en fonction de vos besoins !</span>
         </div>
         <br>
         <div class="sections-btn">
@@ -48,15 +51,52 @@ include "../reno/sources/main/header.php";
     </div>
 </section>
 
-<section id="title-hero" class="">
+<section id="avis" class="">
     <div class="contain">
-        <h1>Les chauds de la Réno !</h1>
-        <div>
-            <span class="sections-span-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur atque doloribus error fugit in iusto, numquam repudiandae soluta suscipit tempore. Aperiam, commodi consequatur dolore est eum expedita explicabo facere illo laboriosam laudantium officia officiis pariatur perferendis perspiciatis quis, sed sint totam ullam voluptas voluptate? Ab consequatur consequuntur doloremque facilis, in ipsum iure mollitia nisi non porro quibusdam, quisquam reiciendis rerum sequi ut, vero voluptates! Aperiam asperiores at atque blanditiis commodi doloribus enim, eos esse, excepturi fuga fugiat fugit id illo in labore magni minus neque nisi nulla optio, pariatur placeat repellendus sapiente sunt suscipit tempora tempore ut velit vitae voluptate.</span>
-        </div>
-        <br>
-        <div class="sections-btn">
-            <a href="" class="btn btn-primary">Call to action</a>
+        <h1>Des avis de nos clients :</h1>
+        <div class="avis-wrap">
+
+            <div class="avis-1">
+                <div class="etoiles">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/e_star.png">
+                </div>
+                <div class="nom">Christophe M.</div>
+                <p class="commentaire">Très bon suivi de chantier, j'ai choisi la société les Chauds de la
+                    Réno, super contact, travail soigné et devis respecté. Votre site est excellent! Les prix
+                    correspondent à ce que l'on m'avait indiqué.
+                    Merci !</p>
+            </div>
+            <div class="avis-2">
+                <div class="etoiles">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                </div>
+                <div class="nom">mICHEL fOURNIRET</div>
+                <p class="commentaire">bEAU BOULOT;j3AI BEAUCOUP AIM2 L32QUIPE.
+                </p>
+            </div>
+
+            <div class="avis-3">
+                <div class="etoiles">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/f_star.png">
+                    <img src="assets/img/ico/e_star.png">
+                    <img src="assets/img/ico/e_star.png">
+                </div>
+                <div class="nom">Bromas Sylvie</div>
+                <p class="commentaire">Equipe très sympathique, efficace, délai respecté. Devis correct. Un travail
+                    correct mais doit s'affiner en finition. Sinon rien à dire.
+                </p>
+            </div>
+
         </div>
     </div>
 </section>
@@ -74,3 +114,7 @@ include "../reno/sources/main/header.php";
         </div>
     </div>
 </section>
+
+<?php
+include "sources/main/footer.php";
+?>

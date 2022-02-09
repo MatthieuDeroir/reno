@@ -29,7 +29,7 @@ $article = $requete->fetchAll();
         <div class="card-event" style="background-image: url(../../assets/img/blog/<?php echo $e['img']?>)">
             <h3 class="card-title"><?php echo $e['titre'] ?></h3>
             <div class="image-selected" >
-                <p><?php echo $e['text']?></p>
+                <p>par <?php echo $e['author']?></p>
                 <p class="card-view">Vues : <?php echo $e['view_count']?></p>
             </div>
             <a href="article.php?id=<?php echo $e["id"] ?>" class="btn btn-call-to-action" ><?php echo 'LIRE' ?></a>

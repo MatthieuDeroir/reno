@@ -1,30 +1,32 @@
 <?php
 
 // création d'un titre de page
-$title = "Dynamic product name";
-
-include "../main/header.php";
 
 $id = filter_input(INPUT_GET, "id");
 
+include_once('../../config.php');
+
 $pdo = new PDO("mysql:host=" . Config::SERVEUR . ";dbname=" . Config::BDD, Config::USERNAME, Config::PASSWORD);
 //creation de la requete
-$requete = $pdo->prepare("select * from product");
+$requete = $pdo->prepare("select * from products");
 //executer la requete
 $requete->execute();
 //recuperer le resultat sous forme d'un tableau
 $product = $requete->fetchAll();
-// création d'un titre de page
-$title = "Dynamic product name";
+
+$title = $product[$id]['titre'];
+$bgimg = "background-image";
 
 include "../main/header.php";
 
+
 ?>
 
-<h1> <?php echo $product[$id]['title'] ?></h1>
-<h3> <?php echo $product[$id]['author'].$product[$id]['date'] ?></h3>
 
-<p> <?php echo $product[$id]['text'] ?></p>
+<h1> <?php echo $product[$id - 1]['title'] ?></h1>
+<h3> <?php echo $product[$id - 1]['price'] ?>/m2</h3>
+<img class = "container" src="../../assets/img/prod/<?php echo $product[$id - 1]['img'] ?>" alt="">
+<p> <?php echo $product[$id - 1]['description'] ?></p>
 
 
 <?php

@@ -7,7 +7,7 @@
     /* color palette */
     --call-to-action: #FB743E;
     --primary: rgb(0, 0, 0);
-    --background: #ff8000;
+    --background: #ff6900;
     --secondary: rgba(138, 185, 255, 0.52);
 
 
@@ -139,8 +139,7 @@ header {
 .background-image {
     /*min-height: 100vh;*/
     /*max-width: 100vw;*/
-    background-image: url("../img/source/reno-bg.jpg"),
-    -moz-linear-gradient(top, #ADB2B6 100%, #ABAEB3 100%);;
+    background-image: url("../img/source/bg-stones.jpg");
     background-color:var(--background);
     background-size: cover;
     background-attachment: scroll;
@@ -162,6 +161,16 @@ header {
     /*max-width: 100vw;*/
     background-image: url("../img/devis/reno-devis.jpg");
     background-color: var(--secondary);
+    background-size: cover;
+    background-attachment: scroll;
+    padding: 100px 0 0 0;
+}
+
+.background-image-article {
+    /*min-height: 100vh;*/
+    /*max-width: 100vw;*/
+    background-image: url("../img/source/reno-bg.jpg");
+    background-color:var(--background);
     background-size: cover;
     background-attachment: scroll;
     padding: 100px 0 0 0;
@@ -342,7 +351,7 @@ header {
     color: #101014;
     /*border-bottom: solid black 2px;*/
     padding-top: 0;
-    backdrop-filter:blur(10px);
+    backdrop-filter:blur(2px);
     margin:0;
 }
 
@@ -366,9 +375,9 @@ header {
 
 .card-text {
     display: block;
-    background-color: #10101477;
-    color: var(--call-to-action);
-    backdrop-filter:blur(1px);
+    background-color: #F7F7F744;
+    color: black;
+    backdrop-filter:blur(2px);
     padding: 5px;
     align-items: center;
     font-size: 14px;
@@ -421,7 +430,8 @@ header {
 /* -------- Cards Event -------- */
 
 .event-section {
-    /*background-color: rgba(218,218,218,0.4);*/
+    padding-top: 30px;
+    background-color: rgb(0, 0, 0, 0.3);
 }
 
 
@@ -478,8 +488,8 @@ header {
     border: 5px solid black;
     /*border: 3px solid black;*/
     /*min-height: 40vh;*/
-    height: 400px;
-    margin:0;
+    height: 350px;
+    margin: 0;
     transition: 0.5s;
     backdrop-filter: blur(1px);
 
@@ -488,6 +498,7 @@ header {
 .card-event:hover {
     transition: 0.8s;
     box-shadow: 6px 16px 10px grey;
+    padding-bottom:70px;
     backdrop-filter: blur(0);
 }
 
@@ -665,7 +676,7 @@ header {
 
 #title-hero {
     /*margin-top: 4rem;*/
-    padding: 4rem 0 10rem 0;
+    padding: 2rem 0 2rem 0;
     background-color: var(--background);
     border: 10px solid black;
     border-left:none;
@@ -703,19 +714,50 @@ header {
 }
 
 #title-hero .contain div > a{
-    background-color: var(--call-to-action);
+}
+
+.section-container {
+    padding: 2rem;
+    border-radius: 5rem;
+}
+
+.section-container:hover {
+    background-color: #AD5700FF;
+}
+.section-title {
+    padding: 2rem;
+    border-bottom: 3px solid black;
+    font-size: 40px;
+    text-align: center;
 }
 
 .sections-span-text {
     display: block;
-    background-color: #383E5699;
     padding: 2rem;
-    border-radius: 5rem;
+    font-size: 21px;
+    border-radius: 1.5rem;
+    background-color: #10101488;
+    color:white;
     align-items: center;
+    text-align: center;
+    backdrop-filter: blur(10px);
+
 }
 
+.sections-span-text-background-primary {
+    display: block;
+    padding: 2rem;
+    font-size: 21px;
+    border-radius: 1.5rem;
+    color:white;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+
 .sections-btn{
-    margin-top: 2rem;
     display: flex;
     place-content: center;
 }
@@ -728,4 +770,104 @@ header {
 
 .white{
     color: #F7F7F7;
+}
+
+/*------ FOOTER ------*/
+
+#footer {
+
+    font-size: 14px;
+    background-color: var(--background) ;
+    color: #fff;
+    padding: 10px 0;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#footer-text {
+    max-width: 1200px;
+    margin-left: 400px;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: block;
+    width: 570px;
+    height: auto;
+    align-content: center;
+    align-items: center;
+}
+
+#footer-wrapper {
+    display : flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+/*----- AVIS -----*/
+
+#avis{
+    padding: 4rem 0 5rem 0;
+    background-color: var(--background);
+    border: 10px solid black;
+    border-left:none;
+    border-right:none;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#avis .contain{
+    margin: 0 13rem;
+    align-items: center;
+}
+#avis .contain .avis-wrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+#avis .contain h1{
+    margin-top: 0;
+    font-size: 5rem;
+}
+
+#avis .avis-1{
+}
+
+#avis .avis-2{
+}
+
+#avis .avis-3{
+}
+
+
+#avis .contain .avis-wrap > div{
+    padding: 12px;
+    border-radius: 1rem;
+    max-width: 27%;
+}
+
+#avis .contain .avis-wrap > div > .etoiles{
+    display: flex;
+    justify-content: center;
+}
+
+#avis .contain .avis-wrap > div > .etoiles img{
+    aspect-ratio: 1;
+    width: 25px;
+    margin: 4px;
+}
+
+
+#avis .contain .avis-wrap > div > .nom{
+    font-weight: bold;
+    padding: 0.7rem 0 1.5rem 0;
+    text-align: center;
+}
+#avis .contain .avis-wrap > div > .commentaire{
+    margin: 0;
+    text-align: center;
 }
