@@ -139,8 +139,9 @@ header {
 .background-image {
     /*min-height: 100vh;*/
     /*max-width: 100vw;*/
-    background-image: url("../img/source/reno-bg.jpg");
-    background-color: var(--secondary);
+    background-image: url("../img/source/reno-bg.jpg"),
+    -moz-linear-gradient(top, #ADB2B6 100%, #ABAEB3 100%);;
+    background-color:var(--background);
     background-size: cover;
     background-attachment: scroll;
     padding: 100px 0 0 0;
@@ -420,7 +421,7 @@ header {
 /* -------- Cards Event -------- */
 
 .event-section {
-    background-color: rgba(218,218,218,0.4);
+    /*background-color: rgba(218,218,218,0.4);*/
 }
 
 
@@ -467,14 +468,14 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 0px;
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     z-index: 80;
     margin-bottom: 30px;
-    border: 2px solid grey;
+    border: 5px solid black;
     /*border: 3px solid black;*/
     /*min-height: 40vh;*/
     height: 400px;
